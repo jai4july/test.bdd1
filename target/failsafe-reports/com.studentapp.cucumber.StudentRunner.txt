@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: com.studentapp.cucumber.StudentRunner
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.263 sec - in com.studentapp.cucumber.StudentRunner
+Tests run: 14, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 5.551 sec <<< FAILURE! - in com.studentapp.cucumber.StudentRunner
+When Make sure the file you want to access is available(Scenario: CASE ROUTING NEGATIVE SCENARIO WITHOUT PRODUCT CODE VALUE)  Time elapsed: 0.006 sec  <<< ERROR!
+java.io.FileNotFoundException: E:\file.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at com.studentapp.cucumber.steps.StudentSteps.verify_file_exist(StudentSteps.java:49)
+	at ?.When Make sure the file you want to access is available(student.feature:14)
+
+Scenario: CASE ROUTING NEGATIVE SCENARIO WITHOUT PRODUCT CODE VALUE  Time elapsed: 0.006 sec  <<< ERROR!
+java.io.FileNotFoundException: E:\file.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at com.studentapp.cucumber.steps.StudentSteps.verify_file_exist(StudentSteps.java:49)
+	at ?.When Make sure the file you want to access is available(student.feature:14)
+
+When Testing negative scenario dividing by 0(Scenario: CASE ROUTING NEGATIVE SCENARIO WITHOUT GoCODE PARAM)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at com.studentapp.cucumber.steps.StudentSteps.test_negative_scenario(StudentSteps.java:62)
+	at ?.When Testing negative scenario dividing by 0(student.feature:22)
+
+Scenario: CASE ROUTING NEGATIVE SCENARIO WITHOUT GoCODE PARAM  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at com.studentapp.cucumber.steps.StudentSteps.test_negative_scenario(StudentSteps.java:62)
+	at ?.When Testing negative scenario dividing by 0(student.feature:22)
+
