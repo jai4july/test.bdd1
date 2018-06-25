@@ -1,4 +1,4 @@
-Feature: Testing Teacher Appication for all features
+Feature: API 2 - NAME
 
 @REGRESSION
 Scenario: Check if the student application can be accessed by users
