@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import net.thucydides.core.annotations.Title;
-public class StudentSteps {
+public class US26459_CaseRoutingSteps {
 	
 	
 	@When("^Check if the status code is 200 and correct$")

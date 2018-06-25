@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import net.thucydides.core.annotations.Title;
-public class US28250ALIPCaseroutingServiceSteps {
+public class US28250_ALIPCaseroutingServiceSteps {
 
 	@When("^Check if the status code is 200 and caseroutingservice$")
 	@Title("TEST 1")
