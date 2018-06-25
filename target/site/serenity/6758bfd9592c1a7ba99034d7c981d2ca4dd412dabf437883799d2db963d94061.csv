@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Testing Teacher Appication for all features","Application issues should be resolved","SUCCESS","2018-06-24T15:22:08.009-04:00","0.0","0.05"
-"Testing Teacher Appication for all features","Check if the student application can be accessed by users","SUCCESS","2018-06-24T15:22:07.933-04:00","0.0","0.04"
+"CASEIDService Feature Mulesoft API","CASE ROUTING NEGATIVE SCENARIO","SUCCESS","2018-06-25T11:47:20.025-04:00","0.0","3.13"
+"CASEIDService Feature Mulesoft API","CASE ROUTING POSITIVE SCENARIO","SUCCESS","2018-06-25T11:47:24.479-04:00","0.0","0.75"

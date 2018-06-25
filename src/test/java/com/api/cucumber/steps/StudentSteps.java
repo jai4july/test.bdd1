@@ -1,21 +1,11 @@
-package com.studentapp.cucumber.steps;
+package com.api.cucumber.steps;
 
 import cucumber.api.java.en.When;
 import net.serenitybdd.rest.SerenityRest;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
-import cucumber.api.java.en.Then;
-import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
 public class StudentSteps {
 	

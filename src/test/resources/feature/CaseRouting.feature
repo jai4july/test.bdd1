@@ -9,7 +9,7 @@ When Check if the status code is 200 and correct
 Scenario: CASE ROUTING POSITIVE SCENARIO WITH WHOLE LIFE
 When Make sure the application has the necessary requirements checked
 
-@SMOKE
+@SMOKE 
 Scenario: CASE ROUTING NEGATIVE SCENARIO WITHOUT PRODUCT CODE VALUE
 When Make sure the file you want to access is available
 

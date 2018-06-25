@@ -1,4 +1,4 @@
-package com.studentapp.testbase;
+package com.api.testbase;
 
 import org.junit.BeforeClass;
 
