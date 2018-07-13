@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Case ID Service Feature Mulesoft API","CASE ROUTING NEGATIVE SCENARIO","SUCCESS","2018-06-25T13:51:42.056-04:00","0.0","3.49"
+"Case ID Service Feature Mulesoft API","CASE ROUTING NEGATIVE SCENARIO","SUCCESS","2018-07-13T10:47:42.168-04:00","0.0","4.69"
+"Case Routing Mulesoft API","CASE ROUTING POSITIVE SCENARIO WITH TERM LIFE","SUCCESS","2018-07-13T10:47:47.882-04:00","0.0","0.08"
